@@ -1,18 +1,14 @@
-import Link from 'next/link'
+import Payment from '../components/CardForm';
 
 export default function Home() {
+
   return (
-    <ul>
-      <li>
-        <Link href="/b" as="/a">
-          <a>a</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/a" as="/b">
-          <a>b</a>
-        </Link>
-      </li>
-    </ul>
-  )
+    <div className='layout'>
+      <div className='container '>
+        <div className="mt-5">
+        <Payment />
+        </div>
+      </div>
+    </div>
+  );
 }

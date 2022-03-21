@@ -1,15 +1,25 @@
 {
   "private": true,
   "scripts": {
-    "dev": "node server.js",
+    "dev": "node app.js",
     "build": "next build",
-    "start": "cross-env NODE_ENV=production node server.js"
+    "start": "cross-env NODE_ENV=production node app.js"
   },
   "dependencies": {
+    "@joi/date": "^2.1.0",
+    "axios": "^0.26.1",
+    "bootstrap": "^5.1.3",
     "cross-env": "^7.0.2",
+    "dotenv": "^16.0.0",
     "express": "^4.17.1",
+    "joi": "^17.6.0",
+    "mongoose": "^6.2.7",
     "next": "latest",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.2.1",
     "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "sass": "^1.49.9"
   }
 }

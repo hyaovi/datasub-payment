@@ -1,0 +1,15 @@
+
+/* make the customizations */
+
+@import "~bootstrap/scss/bootstrap";
+
+
+.layout{
+    min-height: 100vh;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: $light;
+    // background-color: #f4f4f5;
+}
